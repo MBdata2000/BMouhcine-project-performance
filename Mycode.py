@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
@@ -35,8 +37,6 @@ df['score_risque'] = (
     0.15 * df['taux_retard'] +
     0.1 * df['cout_non_conformite'] / 1000
 )
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Visualisation des clusters
 plt.figure(figsize=(8, 6))
