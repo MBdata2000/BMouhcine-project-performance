@@ -29,6 +29,9 @@ I process the data, cluster the suppliers using KMeans, and calculate a global "
 - PCA (for visualization)
 - KMeans (for clustering)
 
+  <img width="559" alt="Screenshot 2025-05-07 at 16 33 06" src="https://github.com/user-attachments/assets/fcb8c51c-1dd2-4a1f-9649-f37fdc653a24" />
+
+
 ---
 
 ## 🧠 What It Shows
